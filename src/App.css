@@ -1,0 +1,59 @@
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 60px; /* Ajusta el tamaño del logo según sea necesario */
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #2aaf35; /* Cambia el color al pasar el mouse */
+}
+
+.nav-register {
+    text-decoration: none;
+}
+
+.nav-register:hover {
+    color: #8671ff;
+    justify-content: space-between;
+}
+
+.custom-table {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-table th {
+    background-color: #8671ff;
+    color: #fff;
+    text-align: center;
+}
+
+.custom-table th, .custom-table td {
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-action {
+    font-size: 1rem; /* Tamaño de los íconos */
+    transition: transform 0.2s;
+}
+
+.btn-action:hover {
+    transform: scale(1.1); /* Efecto de aumento al pasar el mouse */
+}

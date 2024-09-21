@@ -1,0 +1,23 @@
+body {
+    font-family: system-ui, sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+}
+.header h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #333; /* Color oscuro para que destaque sobre el fondo claro */
+}
+.welcome-message {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #555; /* Texto ligeramente más claro para complementar */
+}
+
